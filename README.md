@@ -1,6 +1,6 @@
-# torch_app
+# Torch App
 
-A new Flutter project.
+A Flutter App to access mobile's Flashlight.
 
 ## Getting Started
 
