@@ -24,15 +24,15 @@ class _HomeState extends State<Home> {
           onPressed: (){
             setState(() {
               isOn = !isOn;
+              try {
+                if(isOn)
+                  TorchCompat.turnOn();
+                else
+                  TorchCompat.turnOff();
+              } catch (e){
+                print(e);
+              }
             });
-            try {
-              if(isOn)
-                TorchCompat.turnOn();
-              else
-                TorchCompat.turnOff();
-            } catch (e){
-
-            }
           },
         ),
       )
