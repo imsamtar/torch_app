@@ -1,6 +1,6 @@
 # Torch App
 
-A Flutter App to access mobile's Flashlight.
+A Flutter App to access the mobile's Flashlight.
 
 ## Getting Started
 
